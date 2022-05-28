@@ -37,7 +37,7 @@ function RecipeCreate({addToList}) {
                   placeholder="Ingredients" onChange={addRecipeHandler}></textarea></td>
             <td><textarea name="preparation"required={true} value={formData.preparation} 
                   placeholder="Preparation" onChange={addRecipeHandler}></textarea></td>
-            <td><input name="actions"/></td>
+            
             <td>
               <button type="submit">Create</button>
             </td>
